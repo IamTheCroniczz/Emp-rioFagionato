@@ -1025,3 +1025,44 @@ ul {
 	transform: translateY(0);
 	/* Retorna à posição original */
 }
+
+.whatsapp-button {
+	position: fixed;
+	/* Fixa o botão na tela */
+	bottom: 20px;
+	/* Distância do fundo */
+	right: 20px;
+	/* Distância da direita */
+	width: 60px;
+	/* Largura do botão */
+	height: 60px;
+	/* Altura do botão */
+	background-color: #25D366;
+	/* Cor do fundo do botão */
+	border-radius: 50%;
+	/* Bordas arredondadas */
+	display: flex;
+	/* Centraliza o conteúdo */
+	justify-content: center;
+	/* Centraliza horizontalmente */
+	align-items: center;
+	/* Centraliza verticalmente */
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+	/* Sombra do botão */
+	z-index: 1000;
+	/* Garante que fique acima de outros elementos */
+	transition: background-color 0.3s ease;
+	/* Transição suave na cor de fundo */
+}
+
+.whatsapp-button img {
+	width: 30px;
+	/* Largura do ícone */
+	height: 30px;
+	/* Altura do ícone */
+}
+
+.whatsapp-button:hover {
+	background-color: #2bff00;
+	/* Cor do fundo ao passar o mouse */
+}
